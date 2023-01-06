@@ -1,0 +1,19 @@
+{
+  "name": "e2e-mfa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "get-code": "node ./scripts/mfa-code.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "authenticator": "^1.1.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
