@@ -6,7 +6,9 @@ nodejs (v18) script to generate OTP code based on a secret key
 - once un have the `secret key`, you need to add it to `.env` file in the root foolder.
 
 ### how to run
-
+- create a `.env` file in the root directory
+- add the `secret key` in the `.env` file
+- run the following snipet
 ```
 npm install
 npm run get-code
